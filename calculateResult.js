@@ -1,4 +1,5 @@
-const executableName = getExecutableName(channel, appName);
-const isEven = (num) => num % 2 === 0;
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const lastElement = arr => arr[arr.length - 1];
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const isArray = (arr) => Array.isArray(arr);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
