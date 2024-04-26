@@ -1,5 +1,6 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-const lastElement = arr => arr[arr.length - 1];
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const isArray = (arr) => Array.isArray(arr);
-console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const removeDuplicates = (arr) => [...new Set(arr)];
+const isEmptyArray = arr => !arr.length;
+const flattenedArray = arr => [].concat(...arr);
+const minNumber = arr => Math.min(...arr);
