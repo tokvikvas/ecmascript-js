@@ -1,6 +1,5 @@
-const goToTop = () => window.scrollTo(0, 0);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
-const result = await makeHttpRequest(url);
-const channelName = getChannelName(channel);
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log(1 +  +"2" + "2");
+const minNumber = arr => Math.min(...arr);
