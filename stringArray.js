@@ -1,5 +1,3 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const fullName = name || 'buddy';
+const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const minNumber = arr => Math.min(...arr);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
