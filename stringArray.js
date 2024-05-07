@@ -1,1 +1,2 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const channelName = getChannelName(channel);
+var arr2 = arr1.reverse();
