@@ -1,2 +1,3 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+var c = new Counter(); c.add(); c.add(); c.add();
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
