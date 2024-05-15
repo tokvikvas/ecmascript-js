@@ -1,3 +1,3 @@
-const merge = Object.assign({}, obj1, obj2);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
-console.log(false === '0');
+const value = ( 5 < 7 ) ? "True" : "False" ;
+const channelName = getChannelName(channel);
+console.log("0 || 1 = "+(0 || 1));
