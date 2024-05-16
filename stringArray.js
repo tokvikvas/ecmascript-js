@@ -1,2 +1,2 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const merge = (a, b) => [...a, ...b];
+console.log("0 || 1 = "+(0 || 1));
+const merge = Object.assign({}, obj1, obj2);
