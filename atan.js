@@ -1,2 +1,2 @@
-const randomBoolean = () => Math.random() >= 0.5;
-const isEmptyArray = arr => !arr.length;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const resultingPromises = urls.map((url) => makHttpRequest(url));
