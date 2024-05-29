@@ -1,2 +1,2 @@
-console.log("0 || 1 = "+(0 || 1));
-const merge = Object.assign({}, obj1, obj2);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const result = await makeHttpRequest(url);
