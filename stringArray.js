@@ -1,2 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
-const result = await makeHttpRequest(url);
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+console.log("1 || 2 = "+(1 || 2));
