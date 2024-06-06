@@ -1,2 +1,2 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const flattenedArray = arr => [].concat(...arr);
+var arr3 = "jones".split('');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
