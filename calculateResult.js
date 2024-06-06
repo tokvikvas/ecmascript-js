@@ -1,2 +1,2 @@
-console.log( "A" - "B" + 2);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const flattenedArray = arr => [].concat(...arr);
