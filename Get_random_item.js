@@ -1,3 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const arrayContains = (arr, element) => arr.includes(element);
-const merge = Object.assign({}, obj1, obj2);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
