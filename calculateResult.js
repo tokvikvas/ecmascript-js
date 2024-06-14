@@ -1,2 +1,2 @@
-var arr3 = "jones".split('');
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const randomBoolean = () => Math.random() >= 0.5;
