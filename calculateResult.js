@@ -1,2 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const randomBoolean = () => Math.random() >= 0.5;
+const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(1 +  -"1" + "2");
