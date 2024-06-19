@@ -1,1 +1,1 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const updated = numbers.filter(element => element > 6);
