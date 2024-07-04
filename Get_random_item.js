@@ -1,2 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
