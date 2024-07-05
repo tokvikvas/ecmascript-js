@@ -1,2 +1,1 @@
-const minNumber = arr => Math.min(...arr);
-const executableName = getExecutableName(channel, appName);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
