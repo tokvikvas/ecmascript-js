@@ -1,2 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
