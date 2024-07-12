@@ -1,2 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const fullName = name || 'buddy';
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
