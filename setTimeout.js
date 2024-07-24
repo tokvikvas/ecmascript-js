@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const randomString = () => Math.random().toString(36).slice(2);
+var arr3 = "jones".split('');
+const randomBoolean = () => Math.random() >= 0.5;
