@@ -1,3 +1,2 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-console.log(1 +  -"1" + "2");
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const fullName = name || 'buddy';
