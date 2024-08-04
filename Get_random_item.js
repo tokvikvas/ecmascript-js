@@ -1,1 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const isTabInView = () => !document.hidden;
+const maxNumber = arr => Math.max(...arr);
+const merge = Object.assign({}, obj1, obj2);
