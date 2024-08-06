@@ -1,1 +1,1 @@
-const fullName = name || 'buddy';
+const scriptRootPath = path.join(repositoryRootPath, 'script');
